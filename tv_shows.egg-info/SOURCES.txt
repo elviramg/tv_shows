@@ -1,0 +1,8 @@
+setup.py
+tv_shows/__init__.py
+tv_shows/tv_shows.py
+tv_shows.egg-info/PKG-INFO
+tv_shows.egg-info/SOURCES.txt
+tv_shows.egg-info/dependency_links.txt
+tv_shows.egg-info/requires.txt
+tv_shows.egg-info/top_level.txt
