@@ -1,10 +1,7 @@
 import requests
 import json
 
-headers = {
-    "accept": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YjQ2MTU5NTE2ZDM4NTllYjRlYzMyNDlhYzNiN2VhNSIsIm5iZiI6MTcyMjU0MzEyMS4xNzA0NDcsInN1YiI6IjY2YWFjNWFkNTE4MmMwZDEzNTQ2NTgyYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.HSnc8ZCA5OWPtmUOT3ZN1m7xiojuBJmI7Ng1o65eCOU"
-}
+
 BASE_URL = "https://api.themoviedb.org/3"
 
 def get_top_rated(BASE_URL, headers):
